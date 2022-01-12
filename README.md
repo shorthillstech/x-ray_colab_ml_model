@@ -5,17 +5,17 @@
 </h1>
 
 ## What is this for?
-This repository give you information about the X-ray image and prediction the person that what diseases . 
+This repository give you information about the X-ray image and predicting the diseases of a person. 
 
 ## Ngrok
 [Ngrok](https://ngrok.com/docs) allows you to expose a web server running on your local machine to the internet. Just tell ngrok what port your web server is listening on.
 
 
 ## File Path
-Here is the file path for Cartoon ML Model.
-```/Akbar_Q&A/Q&A_API.ipynb```
+Here is the file path for Xray Colab ML Model.
+```/Xray Colab API/XrayColab.ipynb```
 
-You can use the CartoonAPI file in your Colab setup
+You can use the Xray Colab file in your Colab setup
 
 ## Installation
 ```pip install flask-ngrok```
@@ -37,11 +37,7 @@ To run
 run all the jupiter or colab cell
 
 To make changes
-at line 5 on ```ngrok authtoken "<_YOUR_NGROK_TOKEN_>"``` this is your ngrok token.
-
-To access the API.<br>
-```<_YOUR_NGROK_LINK_>/ask?q=<_YOUR_QUESTION_>```
-
+at line 2 on ```ngrok authtoken "<_YOUR_NGROK_TOKEN_>"``` this is your ngrok token.
 
 
 
@@ -80,3 +76,6 @@ Open your local server and go to this path:
 
 
 ## Sample Video 
+
+
+<img src="./doc/XrayColab.gif" width="700" height="400" />

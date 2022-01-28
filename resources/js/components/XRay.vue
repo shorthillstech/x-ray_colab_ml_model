@@ -1,4 +1,6 @@
 <template>
+  <div class="mainbody">
+     <Header/>
   <div class="mainContainer">
     <div class="main">
       <div class="pictures">
@@ -70,10 +72,17 @@
       </div>
     </div>
   </div>
+  <Footer/>
+  </div>
 </template>
 
 <script>
+import Footer from './Footer.vue';
+import Header from './Header.vue';
+
+
 export default {
+  components: { Header, Footer },
   data() {
     return {
       data: [],
@@ -151,10 +160,21 @@ export default {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+.mainbody{
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
 .mainContainer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(180deg, #EBFDFF 0%, #FFFFFF 100%);
+  height: 100%;
+   flex: 1 0 auto;
 }
 .main {
   position: relative;

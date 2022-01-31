@@ -10,6 +10,16 @@ This repository give you information about the X-ray image and predicting the di
 ## Ngrok
 [Ngrok](https://ngrok.com/docs) allows you to expose a web server running on your local machine to the internet. Just tell ngrok what port your web server is listening on.
 
+## Models and technologies used.
+
+This is a pocket application that is mainly focused on aiding medical professionals on their diagnostics and treatments for chest anomalies based on chest X-Rays. On this application, users can upload a chest X-Ray image and a deep learning model will output the probability of 14 different anomalies taking place on that image
+
+## Links to references
+
+Huggingface ML Model
+
+https://huggingface.co/spaces/Rules99/YouRadiologist
+
 
 ## File Path
 Here is the file path for Xray Colab ML Model.

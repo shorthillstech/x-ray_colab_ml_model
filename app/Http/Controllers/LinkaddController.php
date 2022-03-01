@@ -12,6 +12,9 @@ class LinkaddController extends Controller
     {
         return Linkadd::where('name',$id)->get();
     }
+
+
+    
     public function store(Request $request)
     {
         $data = $request;

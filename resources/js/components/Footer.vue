@@ -10,7 +10,7 @@
         <h4 class="icon"><img src="/images/face.png" alt="" /></h4>
 
         <h6 :style="{ width: '100%', textAlign: 'end' }" class="txt">
-          info@Shorthills.com
+          info@shorthillstech.com
         </h6>
       </div>
     </div>

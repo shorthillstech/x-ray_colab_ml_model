@@ -42478,7 +42478,7 @@ var render = function () {
         _c(
           "h6",
           { staticClass: "txt", style: { width: "100%", textAlign: "end" } },
-          [_vm._v("\n        info@Shorthills.com\n      ")]
+          [_vm._v("\n        info@shorthillstech.com\n      ")]
         ),
       ]),
     ]),

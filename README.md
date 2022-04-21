@@ -44,7 +44,7 @@ Installing all dependency in your local machine or colab.
 and, authentication you ngrok token. 
  
 To run 
-run all the jupiter or colab cell
+run all the jupyter or colab cells
 
 To make changes
 at line 2 on ```ngrok authtoken "<_YOUR_NGROK_TOKEN_>"``` this is your ngrok token.
